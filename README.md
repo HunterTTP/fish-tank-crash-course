@@ -1,6 +1,6 @@
 # FishTankCrashCourse.com
 
-**FishTankCrashCourse.com** is a simple, beginner-friendly website to help you learn how to set up and care for your home aquarium.
+A simple, beginner-friendly website to help you learn how to set up and care for your home aquarium.
 
 ## What's the Plan?
 
