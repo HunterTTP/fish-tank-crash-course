@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fish Tank Crash Course</title>
+  <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="/static/images/logo.png" alt="Logo" height="30" class="me-2">
+        Fish Tank Crash Course
+      </a>
+      <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav" aria-controls="offcanvasNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNav" aria-labelledby="offcanvasNavLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasNavLabel">Menu</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link" href="/index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="kids-10-gallon.html">Kids 10 Gallon Tank</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#help">Get Help</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contribute">Contribute</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <main class="container flex-grow-1 py-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <h1 class="display-5 text-center mb-4">Perfect 10 Gallon Kids Tank</h1>
+        <p class="fs-6 mb-5">
+          A fun, forgiving, and fish-safe setup designed for kids. No water testing. No stress. Just one beautiful Betta.
+        </p>
+
+        <div class="accordion" id="kidsTankAccordion">
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingWhy">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWhy" aria-expanded="true" aria-controls="collapseWhy">
+                Why This Works
+              </button>
+            </h2>
+            <div id="collapseWhy" class="accordion-collapse collapse show" aria-labelledby="headingWhy" data-bs-parent="#kidsTankAccordion">
+              <div class="accordion-body small">
+                <ul>
+                  <li>10-gallon kits are large enough to be stable but still kid-sized.</li>
+                  <li>Betta fish are hardy and interactive—perfect for beginners.</li>
+                  <li>Live plants + gentle filtration = low stress and cleaner water.</li>
+                  <li>No need for testing: consistent water changes + Seachem Prime/ Stability handle it all.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingGear">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGear" aria-expanded="false" aria-controls="collapseGear">
+                What You Need (Minimal Kit)
+              </button>
+            </h2>
+            <div id="collapseGear" class="accordion-collapse collapse" aria-labelledby="headingGear" data-bs-parent="#kidsTankAccordion">
+              <div class="accordion-body small">
+                <ul>
+                  <li>10-gallon kit with lid, heater, filter, and light</li>
+                  <li>1 Betta (halfmoon, veiltail, or crowntail)</li>
+                  <li>Live plants: Java fern, anubias, hornwort (no trimming needed)</li>
+                  <li>Gravel or sand substrate (no sharp edges)</li>
+                  <li><strong>Seachem Prime</strong> (dechlorinator)</li>
+                  <li><strong>Seachem Stability</strong> (beneficial bacteria)</li>
+                  <li>Fish food: Betta pellets (2–3 per day)</li>
+                  <li>Small gravel siphon and bucket</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSetup">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSetup" aria-expanded="false" aria-controls="collapseSetup">
+                Setup Steps
+              </button>
+            </h2>
+            <div id="collapseSetup" class="accordion-collapse collapse" aria-labelledby="headingSetup" data-bs-parent="#kidsTankAccordion">
+              <div class="accordion-body small">
+                <ul>
+                  <li>Rinse substrate and decor (no soap!)</li>
+                  <li>Add substrate, decor, and plants</li>
+                  <li>Fill slowly with tap water — use <strong>Seachem Prime</strong> per instructions</li>
+                  <li>Plug in heater and filter (keep flow gentle for Betta)</li>
+                  <li>Dose with <strong>Seachem Stability</strong> for 7 days</li>
+                  <li>Wait 5–7 days before adding fish</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingRoutine">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRoutine" aria-expanded="false" aria-controls="collapseRoutine">
+                Weekly Routine (No Testing Needed)
+              </button>
+            </h2>
+            <div id="collapseRoutine" class="accordion-collapse collapse" aria-labelledby="headingRoutine" data-bs-parent="#kidsTankAccordion">
+              <div class="accordion-body small">
+                <ul>
+                  <li>Every Saturday or Sunday:</li>
+                  <ul>
+                    <li>Change 30–40% of the water with dechlorinated tap water (Prime)</li>
+                    <li>Use siphon to clean bottom (avoid disturbing plants)</li>
+                    <li>Top off water as needed during week (dechlorinate)</li>
+                    <li>Feed Betta once per day (2–3 pellets)</li>
+                  </ul>
+                  <li><strong>Tip:</strong> Skipping a feeding day weekly is fine — helps prevent bloating.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTips">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTips" aria-expanded="false" aria-controls="collapseTips">
+                Tips for Success
+              </button>
+            </h2>
+            <div id="collapseTips" class="accordion-collapse collapse" aria-labelledby="headingTips" data-bs-parent="#kidsTankAccordion">
+              <div class="accordion-body small">
+                <ul>
+                  <li>Use a timer for the light (8 hrs/day)</li>
+                  <li>Don’t overfeed — bettas are small!</li>
+                  <li>Never wash filter media with tap water — rinse in tank water only</li>
+                  <li>Tell kids: “It’s like taking care of a plant with fins”</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-light text-center py-4">
+    <p class="mb-0">&copy; 2025 Fish Tank Crash Course. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
